@@ -1,9 +1,14 @@
-file_object = open("file1.txt","r")
-phrase =file_object.read()
+file_object = open("file1.txt","w")
+#phrase = "The first content"
+file_object.write("Jawahar Santhiya Navajith")
 file_object.close()
-print (phrase)
+file_object1 = open("file1.txt","r")
+content = file_object1.read()
+print (content)
+file_object1.close()
 
-user = input("Enter the user name")
+
+user = input("Enter the user name"+"\n")
 file_object_new = open("username1.txt","a")
 file_object_new.write(user+"\n")
 file_object_new.close()
