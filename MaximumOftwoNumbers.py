@@ -3,6 +3,6 @@ a= int(input())
 print('Enter the Second number')
 b = int(input())
 if(a>=b):
- print ((a))
+ print (a)
 else:
- print ((b))
+ print (b)
